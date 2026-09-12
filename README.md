@@ -1,12 +1,8 @@
- Third Eye For Blind Person
- 
-<img width="1227" height="620" alt="image" src="https://github.com/user-attachments/assets/cd5aaf4b-af4b-4682-8c26-804a5611604e" />
-
 # Third Eye for Blind Person 👓
 
 An Arduino-based assistive device designed to help visually impaired people detect obstacles and receive immediate alerts through sound and vibration.
 
-## 📌 Introduction
+##  Introduction
 
 The **Third Eye for Blind Person** is a wearable assistive device that uses an ultrasonic sensor to detect obstacles in the user's path.
 
@@ -17,7 +13,13 @@ When an obstacle is detected within a certain distance, the system provides feed
 
 The device can be worn on different parts of the body, such as glasses, shoes, or a belt.
 
-## 🎯 Objectives
+## 📸 Prototype
+
+<p align="center">
+<img width="1227" height="620" alt="image" src="https://github.com/user-attachments/assets/cd5aaf4b-af4b-4682-8c26-804a5611604e" />
+</p>
+
+## Objectives
 
 - Detect obstacles in real time.
 - Alert the user immediately when an obstacle is detected.
@@ -33,7 +35,7 @@ The device can be worn on different parts of the body, such as glasses, shoes, o
 | Vibration Only | 📳 Vibration |
 | Alarm + Vibration | 🔊 Sound + 📳 Vibration |
 
-## 🛠️ Hardware
+## Hardware
 
 - Arduino Uno
 - HC-SR04 Ultrasonic Sensor
@@ -41,7 +43,7 @@ The device can be worn on different parts of the body, such as glasses, shoes, o
 - DC Vibration Motor
 - Supporting electronic components
 
-## 💻 Technology
+##  Technology
 
 - C++
 - Arduino
@@ -51,14 +53,14 @@ The device can be worn on different parts of the body, such as glasses, shoes, o
 - `Third_Eye_for_The_Blind_Person.ino` — Arduino source code
 - `Third Eye For Blind Person .pdsprj` — Proteus project
 
-## 🔄 How It Works
+## How It Works
 
 1. The HC-SR04 ultrasonic sensor measures the distance to nearby objects.
 2. The Arduino processes the measured distance.
 3. When an obstacle is detected within the configured range, the system activates the selected feedback mode.
 4. The user receives a sound alert, vibration alert, or both.
 
-## 📚 Project Context
+##  Project Context
 
 This project was developed as an academic/educational project focused on embedded systems and assistive technology.
 
